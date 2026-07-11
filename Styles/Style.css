@@ -11,6 +11,11 @@
   border-radius: 10px;
   font-weight: bolder;
 }
+.common-btn:hover {
+  cursor: pointer;
+  color: black;
+  background: linear-gradient(20deg, rgb(76, 76, 247), rgb(153, 153, 153));
+}
 .common-text {
   color: #575757;
 }
@@ -52,4 +57,45 @@ nav ul {
 .hero-banner h1 {
   font-size: 70px;
   margin-bottom: 20px;
+}
+/* Speakers Starts */
+.Speakers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px 2%;
+}
+.speakers-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* align-items: center;
+  justify-content: center; */
+  gap: 30px;
+  margin-top: 30px;
+}
+.speakers-cards img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.speakers-card {
+  border: 1px solid #ebe8e8;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.Speakers p {
+  font-size: 13px;
+}
+.blu {
+  color: #2563eb;
+  font-weight: bold;
+}
+.ash {
+  color: #575757;
+}
+.card-content {
+  padding: 20px 6%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

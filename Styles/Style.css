@@ -74,13 +74,13 @@ nav ul {
   margin-bottom: 20px;
 }
 /* Speakers Starts */
-.Speakers {
+.speakers {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 80px 2%;
 }
-.Speakers h1,
+.speakers h1,
 .pricing-head h1 {
   font-size: 60px;
 }

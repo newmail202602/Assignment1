@@ -57,7 +57,7 @@ nav ul {
   background-image:
     linear-gradient(rgba(15, 15, 15, 0.6), rgba(0, 0, 0, 0.6)),
     url(../assets/banner.jpg);
-  height: 100vh;
+  min-height: 100vh;
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,7 +102,7 @@ nav ul {
   border-radius: 10px;
   overflow: hidden;
 }
-.Speakers p {
+.speakers p {
   font-size: 13px;
 }
 .blu {
@@ -167,8 +167,6 @@ nav ul {
   color: white;
 }
 /* Ai suggest sectiom */
-/* Schedule */
-
 /* Schedule */
 
 .schedule {
@@ -270,8 +268,6 @@ footer {
   display: flex;
   flex-direction: column;
 }
-.footer-icon {
-}
 .footer-up {
   display: flex;
   flex-direction: row;
@@ -303,6 +299,6 @@ footer i:hover {
   justify-content: center;
   margin: 10px auto;
 }
-hr {
+footer hr {
   opacity: 40%;
 }

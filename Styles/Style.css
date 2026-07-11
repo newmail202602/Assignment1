@@ -271,12 +271,11 @@ footer {
   flex-direction: column;
 }
 .footer-icon {
-  
 }
 .footer-up {
   display: flex;
   flex-direction: row;
-  padding: 10px 2%;
+  padding: 10px 4%;
   align-items: center;
   justify-content: space-between;
   gap: 40px;
